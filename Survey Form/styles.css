@@ -1,0 +1,99 @@
+h1,p[id="description"] {
+    text-align:center;
+}
+
+div[id=form]{
+    height:100%;
+}
+
+div[name=improved]{
+    /* background-color: black; */
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div[name="box"]{
+    /* background-color: black; */
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.block {
+    display:block;
+}
+label[id=def] ,label[id=may] ,label[id=not-sure] {
+    display: block;
+    /* background-color: black; */
+    /* width:50%;
+    margin-left: auto;
+    margin-right: auto; */
+}
+input ,select{
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label{
+    /* margin-left:260px; */
+    margin-top: 5px;
+    /* display: block; */
+    align-items:center;
+    
+}
+
+div[id="name"],div[id="email"],div[id="age"],div[id="options1"],div[id="options2"]{
+    /* background-color: black; */
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+div[name=recommend]
+{
+    /* background-color:white; */
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checkbox{
+    display: block;
+}
+
+
+select {
+    width:100%;
+}
+
+input[type="textbox"]{
+    height: 100px;
+    width: 100%;
+}
+
+
+
+
+
+
+input{
+    margin-top:3px;
+   
+}
+
+div[id="form"]{
+    background-color: grey;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+    <div id="header-div">
+        <header>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <em>
+                <p id="description">Thank you for taking the time to help us improve the platform</p>
+            </em>
+
+
+        </header>
+    </div>
+
+
+    <section>
+        <div id="form">
+            <form id="survey-form">
+
+                <div>
+                    <label id="name-label">
+                        Name <input id="name" type="text" placeholder="Enter your name" class="block" required>
+
+                    </label>
+                </div>
+
+
+                <div>
+                    <label id="email-label">Email <input type="email" placeholder="Enter your Email" class="block"
+                            id="email" required>
+                    </label>
+                </div>
+
+                <div id="age">
+                    <label id="number-label">Age (optional)<input type="number" placeholder="Age" id="number" min="16"
+                            max="120"></label>
+                </div>
+
+
+                <div id="options1">
+                    <label>Which option best describes your current role?
+                        <select class="block" id="dropdown">
+                            <option disabled selected>Select current role</option>
+                            <option>Student</option>
+                            <option>Full Time Job</option>
+                            <option>Full Time Learner</option>
+                            <option>Prefer not to say</option>
+                            <option>Other</option>
+
+                        </select>
+                    </label>
+                </div>
+
+                <div name="recommend">
+                    Would you recommend freeCodeCamp to a friend?<label id="def"><input type="radio" name="rec"
+                            value="Definitely">Definitely</label>
+                    <label id="may"><input type="radio" name="rec" value="Maybe">Maybe</label>
+                    <label id="not-sure"><input type="radio" name="rec" value="Not sure">Not sure</label>
+                </div>
+
+                <div id="options2">
+                    <label>Which option best describes your current role?
+                        <select class="block">
+                            <option disabled selected>Select an option</option>
+                            <option>Challenges</option>
+                            <option>Projects</option>
+                            <option>Community</option>
+                            <option>Open source</option>
+                            <!-- <option>Other</option> -->
+
+                        </select>
+                    </label>
+                </div>
+
+                <div name="improved">
+                    What would you like to see improved? (Check all that apply)<label class="checkbox"><input
+                            type="checkbox" name="rec" value="Front-end Projects">Front-end Projects</label>
+
+                    <label class="checkbox"><input type="checkbox" value="Back-end Projects">Back-end Projects</label>
+
+                    <label class="checkbox"><input type="checkbox" value="Data Visualization">Data Visualization</label>
+
+                    <label class="checkbox"><input type="checkbox" value="Challenges">Challenges</label>
+
+                    <label class="checkbox"><input type="checkbox" value="Open Source Community">Open Source
+                        Community</label>
+
+                    <label class="checkbox"><input type="checkbox" value="Gitter help rooms">Gitter help rooms</label>
+
+                    <label class="checkbox"><input type="checkbox" value="Videos">Videos</label>
+
+                    <label class="checkbox"><input type="checkbox" value="City Meetups">City Meetups</label>
+
+                    <label class="checkbox"><input type="checkbox" value="Wiki">Wiki</label>
+
+                    <label class="checkbox"><input type="checkbox" value="Forum">Forum</label>
+
+                    <label class="checkbox"><input type="checkbox" value="Additional Courses">Additional Courses</label>
+
+
+
+                </div>
+
+                <div name="box">
+                    <label>
+                        Any comments or suggestions?
+                        <textarea></textarea>
+                    </label>
+                </div>
+
+                <button id="submit" type="submit" value="Submit">Submit</button>
+
+
+
+
+
+
+
+
+
+            </form>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
